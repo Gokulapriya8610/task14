@@ -1,0 +1,121 @@
+.main1{
+	/* height: 500px; */
+	/* width: 500px; */
+	/* display: block; */
+	/* margin: 0 auto; */
+	filter: blur(5px);
+}
+.main1:hover{
+	filter: blur(0)
+}
+
+
+.main2{
+	filter: hue-rotate(160deg);
+}
+.main2:hover{
+	filter: blur(0)
+}
+
+
+.main3{
+	filter: brightness(50%);
+}
+.main3:hover{
+	filter: blur(0)
+}
+
+
+.main4{
+	filter: invert(100%);
+}
+.main4:hover{
+	filter: blur(0)
+}
+
+.main5{
+	filter: grayscale(100%);
+}
+.main5:hover{
+	filter: blur(0)
+}
+
+
+.main6{
+	filter: saturate(500%);
+}
+.main6:hover{
+	filter: blur(0)
+}
+
+.main7{
+	filter: sepia(300%);
+}
+.main7:hover{
+	filter: blur(0)
+}
+
+.main8{
+	filter: opacity(10%);
+}
+.main8:hover{
+	filter: blur(0)
+}
+
+
+
+
+.linear{
+	height: 450px;
+	color: tomato;
+	background-image: linear-gradient(to left, red 10%, yellow 25%);
+	margin-bottom: 70px;
+}
+
+.radial{
+	height: 450px;
+	color: tomato;
+	background-image: radial-gradient(red 10%, green 25%, blue 20%);
+	margin-bottom: 70px;
+}
+
+.conic{
+	height: 450px;
+	width: 450px;
+	border-radius: 50%;
+	color: tomato;
+	background-image: conic-gradient(red 10%, black 30%, yellow 45%, pink 20%);
+	margin-bottom: 70px;
+}
+
+.linear1{
+	background-image: linear-gradient(to bottom,#2700ff9e,#ffff008c),url("../images/nature1.jpg");
+	width: 80%;
+    height: 500px;
+    background-size: cover;
+	
+}
+
+.linear2{
+	background-image: linear-gradient(to right,#fff70096,#03a9f4bf),url("../images/nature1.jpg");
+	width: 80%;
+    height: 500px;
+    background-size: cover;
+	
+}
+
+.linear3{
+	background-image: linear-gradient(to left,#00ff891f,#e91e6352),url("../images/nature2.jpg");
+	width: 80%;
+    height: 500px;
+    background-size: cover;
+	
+}
+
+.linear4{
+	background-image: linear-gradient(to top,#fff70096,#03a9f4bf),url("../images/nature.jpg");
+	width: 80%;
+    height: 500px;
+    background-size: cover;
+	
+}
